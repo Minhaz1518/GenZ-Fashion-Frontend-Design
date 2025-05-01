@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenZ Fashion Frontend</title>
+    <link rel="stylesheet" href="./Output/tailwind.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .pri_button
+        {
+            height: 50px ; width: 140px;
+            background-color: #85A019; 
+            border: none; 
+            color: white;
+            text-align: center;
+            border-radius: 6px; 
+        }
+
+        .pri_button:hover {
+            background-color: #A4BC46; 
+        }
+
+        .list-none li:hover {
+            color: #add800;
+        }
+
+        .shadow_all
+        {
+            box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body>
+ 
+<!-- Navbar -->
+
+<header>
+
+    <div class="h-165 bg-[#FFFBF0] flex flex-col font-Montserrat ">
+<!-- part - 1 -->
+            <div class="h-30 flex gap-40 mt-15 
+            max-sm:flex-col max-sm:gap-0 max-sm:items-center max-sm:h-5 max-sm:mt-4">
+
+                <div class="m-10 w-120 pl-30 text-[#5e5c5c] flex flex-row max-sm:pl-0 ">
+
+                    <img src="./icons/logo_icon.png" alt="Logo" class="h-12 w-12 mr-3 
+                    max-sm:mr-0 max-sm:h-6 max-sm:w-6">
+
+                    <h1 class="text-4xl max-sm:text-xl"><span class="text-[#A4BC46]">GenZ </span>Fashion</h1>
+
+                </div>
+        
+
+                <div class="h-8 w-115 flex flex-row gap-x-5 ml-30 mt-10 no-underline
+                list-none  text-lg text-[#5e5c5c] hidden sm:flex"> 
+                    <li>Home</li>
+                    <li>Product</li>
+                    <li>About us</li>
+                    <li>Contact us</li>
+                </div>
+            </div>
+<!-- Part - 2 -->
+            <div class="h-120 flex flex-row gap-40">
+
+                <div class="ml-10 mt-20 w-130 pl-30 text-[#5e5c5c] flex flex-col ">
+                        <h1 class="text-5xl font-bold"><span class="text-[#FABE4C]">BE THE GENZS<br></span>OF WINTER</h1>
+                        <p class="text-base text-[#3E3E3E] mt-4">Lorem Ipsum is simply dummy text of the printing 
+                            and typesetting industry.</p>
+
+                        <div>
+                                <button class="pri_button flex justify-center items-center mt-5"><img src="./icons/shopping-cart 1.png" alt="Logo" class="h-5 w-5 mr-2">BUY NOW</button>
+                        </div>
+
+                </div>
+
+                <div>
+                    <img src="./images/model.png" alt="model" class="h-90 w-90  ml-30 mt-10">
+                </div>
+
+            </div>
+
+    </div>
+
+</header>
+
+<!-- Navbar End -->
+
+
+</body>
+</html>
